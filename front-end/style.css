@@ -1,0 +1,55 @@
+body { background: #ff793f; color: #FFF; margin: 0; font-family: 'Comfortaa', cursive; text-align: center; letter-spacing: 0.08em; } 
+body h1{ font-weight: 500; } 
+.box { border-radius: 20px; 
+  width: 90%; 
+  height: 60vh; 
+  margin: 15px auto; 
+  background: white; 
+  overflow: hidden; 
+  position: relative; 
+  top: 0; 
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); 
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
+
+
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #cd6133;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #cd6133;
+  }
+  
+  .searchTerm:focus{
+    color: #cd6133;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #cd6133;
+    background: #cd6133;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
