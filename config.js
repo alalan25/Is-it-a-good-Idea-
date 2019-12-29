@@ -1,6 +1,6 @@
 module.exports = {
     dbHost: 'localhost',
-    dbName: 'Market Search',
-    collectionName:'vehicles',
+    dbName: 'is it a good idea',
+    collectionName:'Searches',
     sourceDataFile: 'data.txt',
 };
